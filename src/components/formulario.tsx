@@ -41,6 +41,17 @@ export const Formulario = ()=>{
                 <label className="form-label">Nombre:</label>
                 <input type= "email"
                         className="form-control" 
+                        name="edad"
+                        value={formulario.edad}
+                        onChange={handleChange}
+                      />
+
+            </div>
+
+            <div className ="mb-3">
+                <label className="form-label">Edad</label>
+                <input type= "email"
+                        className="form-control" 
                         name="nombre"
                         value={formulario.nombre}
                         onChange={handleChange}
